@@ -35,9 +35,9 @@ clear;clear;clear
 
   # // Banner
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "  Welcome To R2M TUNNELING ${RED}(${NC}${RED} Stable Edition ${NC}${RED})${NC}"
+echo -e "  Welcome To KARL TUNNELING ${RED}(${NC}${RED} Stable Edition ${NC}${RED})${NC}"
 echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  AUTHOR: ${BLUE}RadenRizki® ${NC}${RED}(${NC} ${BLUE} R2MTUNNNEL${NC}${RED})${NC}"
+echo -e "  AUTHOR: ${BLUE}KARLTECH® ${NC}${RED}(${NC} ${BLUE} KARL TUNNELING${NC}${RED})${NC}"
 echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 echo ""
 sleep 2
