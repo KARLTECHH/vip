@@ -20,8 +20,8 @@ green='\e[0;32m'
 TIME=$(date '+%d %b %Y')
 ipsaya=$(wget -qO- ipinfo.io/ip)
 TIMES="10"
-CHATID="-1002095820322"
-KEY="6720773466:AAEW2N3hQX_xIdy8yWLy2KrOaPguXA35Oi4"
+CHATID="-6568659225"
+KEY="6888447012:AAFY3kkQ6MTfTybLnstYGx0P69iO__Ap3MM"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 # ===================
 clear
@@ -33,14 +33,22 @@ clear
 clear && clear && clear
 clear;clear;clear
 
-  # // Banner
-echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "  Welcome To KARL TUNNELING ${RED}(${NC}${RED} Stable Edition ${NC}${RED})${NC}"
-echo -e " This Will Quick Setup VPN Server On Your Server"
-echo -e "  AUTHOR: ${BLUE}KARLTECH® ${NC}${RED}(${NC} ${BLUE} KARL TUNNELING${NC}${RED})${NC}"
-echo -e "${YELLOW}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo ""
-sleep 2
+function LOGO() {
+    echo -e "
+    ┌───────────────────────────────────────────────┐
+ ───│                                               │───
+ ───│    $Green┌─┐┬ ┬┌┬┐┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐  ┬  ┬┌┬┐┌─┐$NC   │───
+ ───│    $Green├─┤│ │ │ │ │└─┐│  ├┬┘│├─┘ │   │  │ │ ├┤ $NC   │───
+ ───│    $Green┴ ┴└─┘ ┴ └─┘└─┘└─┘┴└─┴┴   ┴   ┴─┘┴ ┴ └─┘$NC   │───
+    │    ${YELLOW}Copyright${FONT} (C)$GRAY https://github.com/R2GANTENG$NC   │
+    └───────────────────────────────────────────────┘
+         ${RED} AUTOSCRIPT PREMIUM${FONT}    
+           ${RED} SCRIPT MOD BY KARL TECH${FONT}
+${RED}SELAMAT MENIKMATI PENGINSTALLANNYAt${FONT}
+        "
+
+}
+sleep 5
 ###### IZIN SC 
 
 # // Checking Os Architecture
@@ -307,7 +315,7 @@ restart_system() {
     TIMEZONE=$(printf '%(%H:%M:%S)T')
     TEXT="
 <code>────────────────────</code>
-<b>⚡AUTOSCRIPT KARL TECH⚡</b>
+<b>.       ⚡AUTOSCRIPT PREMIUM⚡</b>
 <code>────────────────────</code>
 <code>ID     : </code><code>$USRSC</code>
 <code>Domain : </code><code>$domain</code>
@@ -317,7 +325,7 @@ restart_system() {
 <code>Exp Sc : </code><code>$EXPSC</code>
 <code>────────────────────</code>
 <i>Automatic Notification from Github</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/karlstore0"},{"text":"grub🐬","url":"https://t.me/rev4youstoreee"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"ᴏʀᴅᴇʀ🐳","url":"https://t.me/karlstore0"},{"text":"grub🐬","url":"https://t.me/Karlstore0"}]]}'
     curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 }
 clear
